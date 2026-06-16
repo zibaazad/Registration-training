@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+<meta charset="UTF-8">
+<title>آموزش ثبت‌نام | آکادمی</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Vazirmatn:wght@400;500;700&amp;display=swap');
+    body { font-family: 'Vazirmatn', sans-serif; background: #0a0f1e; color: #e2e8f0; }
+    .navy-gold { color: #d4af37; }
+    .timeline-item { position: relative; }
+    .timeline-item::before {
+        content: ''; position: absolute; right: 31px; top: 0; bottom: -40px;
+        width: 3px; background: linear-gradient(#334155, #475569);
+    }
+    .timeline-item:last-child::before { display: none; }
+    .luxury-card {
+        background: #111827; border: 1px solid #334155;
+        transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+    }
+    .luxury-card:hover { border-color: #d4af37; transform: translateY(-2px); }
+    .step-number {
+        background: linear-gradient(135deg, #1e3a8a, #312e81);
+        color: #d4af37; border: 1px solid #d4af37;
+    }
+</style>
+</head>
+<body class="pb-16">
+
+    <!-- Top Bar -->
+    <div class="bg-[#111827] border-b border-slate-700">
+        <div class="max-w-7xl mx-auto px-8 py-5 flex items-center justify-between">
+            <div class="flex items-center gap-4">
+                <div class="w-10 h-10 bg-gradient-to-br from-blue-900 to-indigo-900 rounded-2xl flex items-center justify-center">
+                    <i class="fa-solid fa-user-plus text-[#d4af37] text-xl"></i>
+                </div>
+                <div>
+                    <span class="font-bold text-2xl tracking-tight">ثبت‌نام هوشمند</span>
+                </div>
+            </div>
+            <div class="flex items-center gap-3 text-sm">
+                <div class="px-4 py-2 bg-slate-800 rounded-2xl flex items-center gap-2">
+                    <i class="fa-solid fa-clock text-emerald-400"></i>
+                    <span class="text-emerald-400 text-xs font-medium">زمان تقریبی: ۴ دقیقه</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Hero -->
+    <div class="max-w-7xl mx-auto px-8 pt-14 pb-10">
+        <div class="max-w-3xl">
+            <div class="inline-block px-4 py-1.5 bg-[#1e3a8a] text-[#d4af37] text-sm rounded-full mb-4">راهنمای جامع ۱۴۰۳</div>
+            <h1 class="text-6xl font-bold tracking-tighter leading-none">آموزش ثبت‌نام</h1>
+            <p class="mt-5 text-xl text-slate-300">فرآیند ثبت‌نام را به ساده‌ترین و امن‌ترین شکل ممکن بیاموزید</p>
+        </div>
+    </div>
+
+    <div class="max-w-7xl mx-auto px-8">
+        <div class="grid grid-cols-12 gap-8">
+            
+            <!-- Timeline Section -->
+            <div class="col-span-12 lg:col-span-7">
+                <div class="mb-8">
+                    <h2 class="text-2xl font-semibold mb-6 flex items-center gap-3">
+                        <span>مراحل ثبت‌نام</span>
+                        <div class="flex-1 h-px bg-gradient-to-r from-slate-700 to-transparent"></div>
+                    </h2>
+                </div>
+
+                <!-- Step 1 -->
+                <div class="timeline-item flex gap-6 mb-10">
+                    <div class="step-number w-16 h-16 rounded-2xl flex-shrink-0 flex items-center justify-center text-3xl font-bold">۱</div>
+                    <div class="luxury-card flex-1 p-7 rounded-3xl">
+                        <div class="font-semibold text-xl mb-3">انتخاب پلتفرم معتبر</div>
+                        <div class="text-slate-300 leading-relaxed">
+                            اولین قدم، انتخاب یک پلتفرم معتبر و دارای مجوز است. پیش از هر اقدامی، از طریق جستجوی رسمی و بررسی نظرات کاربران، پلتفرم مورد نظر خود را انتخاب کنید. 
+                            توجه داشته باشید که پلتفرم باید دارای گواهی SSL، پشتیبانی ۲۴ ساعته و روش‌های پرداخت متنوع باشد. 
+                            بسیاری از کاربران با عجله در این مرحله اشتباه می‌کنند و بعداً با مشکلات امنیتی مواجه می‌شوند.
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Step 2 -->
+                <div class="timeline-item flex gap-6 mb-10">
+                    <div class="step-number w-16 h-16 rounded-2xl flex-shrink-0 flex items-center justify-center text-3xl font-bold">۲</div>
+                    <div class="luxury-card flex-1 p-7 rounded-3xl">
+                        <div class="font-semibold text-xl mb-3">تکمیل فرم اطلاعات اولیه</div>
+						<img 
+  src="data:image/png;base64,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" 
+  alt="تحلیل فرم تیم‌های اروپایی" 
+  style="width: 100%; max-width: 850px; height: 320px; object-fit: cover; display: block; margin: 24px auto; border-radius: 20px; box-shadow: 0 10px 20px rgba(0,0,0,0.3);"
+>
+                        <div class="text-slate-300 leading-relaxed">
+                            پس از ورود به صفحه ثبت‌نام، فرم اطلاعات اولیه را با دقت پر کنید. معمولاً این فرم شامل شماره تلفن همراه، آدرس ایمیل و انتخاب رمز عبور قوی است. 
+                            رمز عبور باید حداقل ۸ کاراکتر بوده و ترکیبی از حروف بزرگ، کوچک، اعداد و نمادها باشد. 
+                            در این مرحله از اطلاعات واقعی خود استفاده کنید تا در مراحل بعدی با مشکلی مواجه نشوید.
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Step 3 -->
+                <div class="timeline-item flex gap-6 mb-10">
+                    <div class="step-number w-16 h-16 rounded-2xl flex-shrink-0 flex items-center justify-center text-3xl font-bold">۳</div>
+                    <div class="luxury-card flex-1 p-7 rounded-3xl">
+                        <div class="font-semibold text-xl mb-3">تأیید هویت از طریق کد</div>
+                        <div class="text-slate-300 leading-relaxed">
+                            پس از ارسال فرم، یک کد تأیید ۶ رقمی به شماره تلفن یا ایمیل شما ارسال می‌شود. 
+                            این کد را در زمان مشخص شده وارد کنید. این مرحله برای جلوگیری از ثبت‌نام‌های جعلی و افزایش امنیت حساب بسیار مهم است. 
+                            اگر کد را دریافت نکردید، از گزینه «ارسال مجدد» استفاده کنید.
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Step 4 -->
+                <div class="timeline-item flex gap-6">
+                    <div class="step-number w-16 h-16 rounded-2xl flex-shrink-0 flex items-center justify-center text-3xl font-bold">۴</div>
+                    <div class="luxury-card flex-1 p-7 rounded-3xl">
+                        <div class="font-semibold text-xl mb-3">تکمیل پروفایل و فعال‌سازی</div>
+                        <div class="text-slate-300 leading-relaxed">
+                            در آخرین مرحله، اطلاعات تکمیلی مانند نام و نام خانوادگی، تاریخ تولد و آپلود مدارک هویتی را انجام دهید. 
+                            پس از تأیید مدارک توسط تیم پشتیبانی، حساب شما به طور کامل فعال می‌شود و می‌توانید از تمام خدمات پلتفرم استفاده کنید.
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Side Panel -->
+            <div class="col-span-12 lg:col-span-5">
+                <div class="sticky top-8">
+                    <div class="luxury-card rounded-3xl p-8 mb-6">
+                        <div class="flex items-center gap-4 mb-6">
+                            <i class="fa-solid fa-shield-halved text-3xl text-[#d4af37]"></i>
+                            <div>
+                                <div class="font-semibold">نکات امنیتی مهم</div>
+                                <div class="text-sm text-slate-400">قبل از شروع مطالعه کنید</div>
+                            </div>
+                        </div>
+                        <ul class="space-y-4 text-sm">
+                            <li class="flex gap-3"><i class="fa-solid fa-check text-emerald-400 mt-1"></i> از رمز عبور منحصربه‌فرد استفاده کنید</li>
+                            <li class="flex gap-3"><i class="fa-solid fa-check text-emerald-400 mt-1"></i> شماره تلفن واقعی خود را وارد کنید</li>
+                            <li class="flex gap-3"><i class="fa-solid fa-check text-emerald-400 mt-1"></i> از VPN در زمان ثبت‌نام استفاده نکنید</li>
+                            <li class="flex gap-3"><i class="fa-solid fa-check text-emerald-400 mt-1"></i> مدارک هویتی واضح آپلود کنید</li>
+                        </ul>
+                    </div>
+
+                    <div class="luxury-card rounded-3xl p-8">
+                        <div class="text-sm text-[#d4af37] mb-3">آمار کاربران</div>
+                        <div class="text-4xl font-bold">۱۲۸٬۴۵۰</div>
+                        <div class="text-slate-400">نفر در ماه گذشته ثبت‌نام کرده‌اند</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bottom Content -->
+    <div class="max-w-7xl mx-auto px-8 mt-16">
+        <div class="luxury-card rounded-3xl p-10">
+            <h3 class="text-2xl font-semibold mb-6">سؤالات متداول درباره ثبت‌نام</h3>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8 text-sm leading-relaxed text-slate-300">
+                <div>
+                    <div class="font-medium text-white mb-2">آیا ثبت‌نام رایگان است؟</div>
+                    <p>بله، ثبت‌نام در تمام پلتفرم‌های معتبر کاملاً رایگان است و هیچ هزینه‌ای دریافت نمی‌شود.</p>
+                </div>
+                <div>
+                    <div class="font-medium text-white mb-2">مدت زمان تأیید حساب چقدر است؟</div>
+                    <p>معمولاً بین ۳۰ دقیقه تا ۲۴ ساعت طول می‌کشد تا مدارک بررسی و حساب فعال شود.</p>
+                </div>
+                <div>
+                    <div class="font-medium text-white mb-2">اگر کد تأیید را دریافت نکردم چه کنم؟</div>
+                    <p>می‌توانید از گزینه ارسال مجدد استفاده کنید یا با پشتیبانی تماس بگیرید.</p>
+                </div>
+                <div>
+                    <div class="font-medium text-white mb-2">آیا می‌توانم بعداً اطلاعاتم را تغییر دهم؟</div>
+                    <p>بله، اما تغییر برخی اطلاعات مانند شماره تلفن نیاز به تأیید مجدد دارد.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
